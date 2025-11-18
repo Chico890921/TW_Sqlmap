@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">sqlmap 1.9 繁體中文版</h1>
+  <h1 align="center">sqlmap 1.9.8 繁體中文版</h1>
 </p>
 
 <p align="center">
