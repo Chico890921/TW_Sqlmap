@@ -30,7 +30,7 @@
 
 ## 📸 測試截圖
 
-![1742858021519](https://github.com/user-attachments/assets/e7f96942-5914-4f3e-b263-cc239d076482)
+![alt text](image.png)
 
 ## ⚙️ 使用方法
 
