@@ -41,6 +41,22 @@ python sqlmap.py -h    # 顯示基本說明
 python sqlmap.py -hh   # 顯示完整說明
 ```
 
+### WSL (Kali) 移轉說明
+
+如果你在 Windows 上下載了本專案並希望將整個 sqlmap 資料夾移轉到 WSL(例如 Kali)中,可在 WSL 終端機中執行以下命令:
+
+**1. 備份舊版本(如果存在):**
+```bash
+sudo mv /usr/share/sqlmap /usr/share/sqlmap.backup
+```
+
+**2. 複製繁體中文版到系統路徑:**
+```bash
+sudo cp -r /mnt/d/user/Downloads/sqlmap_1.9.8_tw /usr/share/sqlmap
+```
+
+注意:請確認來源路徑與資料夾名稱正確,以及目標路徑 `/usr/share/` 是否有寫入權限。
+
 ## ⚠️ 注意事項
 
 - 本繁體版保留了原始的功能和邏輯，僅更改界面顯示語言與排版
